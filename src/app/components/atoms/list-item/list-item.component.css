@@ -1,0 +1,18 @@
+.item-button {
+  cursor: pointer;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  color: #1a1a1a;
+  border: unset;
+  text-align: left;
+  background-color: #ececec;
+  font-weight: normal;
+  width: 100%;
+}
+
+.selected {
+  background-color: #a9b3c4;
+  font-weight: bold;
+}

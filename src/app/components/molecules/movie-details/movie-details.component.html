@@ -1,0 +1,16 @@
+<div class="movie-details-container">
+  <app-poster
+    [imgSrc]="selectedMovie.poster"
+    [alt]="selectedMovie.title"
+  ></app-poster>
+  <app-movie-label
+    [title]="selectedMovie.title"
+    [year]="selectedMovie.year"
+  ></app-movie-label>
+  <app-movie-info
+    label="Director"
+    [value]="selectedMovie.director"
+  ></app-movie-info>
+  <app-movie-info label="Casts" [value]="selectedMovie.casts"></app-movie-info>
+  <app-movie-info label="Genre" [value]="selectedMovie.genre"></app-movie-info>
+</div>

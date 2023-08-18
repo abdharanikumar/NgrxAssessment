@@ -1,0 +1,13 @@
+<section class="list-container">
+  <ul>
+    <li
+      class="list-item"
+      [ngClass]="[ selectedId == movie.id ? 'selected' : 'd' ]"
+      (click)="onClick(movie)"
+      *ngFor="let movie of movieListData"
+    >
+      <app-list-item [text]="movie.title" [selected]="selectedId == movie.id">
+      </app-list-item>
+    </li>
+  </ul>
+</section>
